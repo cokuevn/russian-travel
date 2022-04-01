@@ -1,4 +1,41 @@
-.header__title {
-    color: blue;
-    font-weight: bold;
+.header {
+    margin-bottom: 48px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.header__logo {
+    max-width: 177px;
+    height: 52px;
+}
+
+.header__container-lang {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    min-width: 80px;
+}
+
+.header__lang {
+    width: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+}
+
+.header__lang-active {
+    text-decoration-line: underline;
+    width: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
 }

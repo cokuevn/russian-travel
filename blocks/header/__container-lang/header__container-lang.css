@@ -1,0 +1,15 @@
+.header__container-lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    min-width: 80px;
+}
+@media screen and (max-width: 425px) {
+    .header__container-lang {
+      font-size: 18px;
+      line-height: 20px;
+     
+    }
+  }

@@ -1,0 +1,32 @@
+.place__image {
+    max-width: 460px;
+   max-height: 460px;
+    grid-area: place-image;
+    object-fit: cover;
+ 
+}
+
+@media screen and (max-width: 1140px) {
+    .place__image {
+        max-width: 440px;
+        max-height: 440px;
+        margin:0;
+    }
+  }
+  
+  @media screen and (max-width: 984px) {
+    .place__image {
+        max-width: 340px;
+        max-height: 340px;
+        margin:0;
+    }
+  }
+
+@media screen and (max-width: 568px) {
+    .place__image {
+        position: relative;
+        margin-top:32px;
+        width:100%;
+        padding: 0;
+    }
+  }

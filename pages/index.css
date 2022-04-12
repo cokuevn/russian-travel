@@ -30,6 +30,7 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__url/place__url.css);
 @import url(../blocks/place/__website/);
+@import url(../blocks/place/__paragraph-block/place__paragraph-block.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);

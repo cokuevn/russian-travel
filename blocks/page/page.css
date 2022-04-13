@@ -34,8 +34,20 @@
     padding-right: 48px;
     box-sizing: border-box;
     margin: 0 auto;
+    
 }
-
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  body {
+    overflow: auto; /* добавить полосу прокрутки */ 
+  }
+  main {
+    min-height: 100%;
+  }
 
 /*
 h1,
@@ -71,7 +83,14 @@ footer {
 
 @media screen and (max-width: 568px) {
     .page {
+
         width: 100%;
         padding: 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .page {
+        
+
     }
 }

@@ -1,32 +1,28 @@
-.place__image {
-    max-width: 460px;
-   max-height: 460px;
-    grid-area: place-image;
-    object-fit: cover;
- 
-}
 
-@media screen and (max-width: 1140px) {
+  .place__image {
+    margin: 0;
+    padding: 0;
+    max-width: 480px;
+    height: auto;
+    grid-area: place-image;
+  }
+  
+  @media screen and (max-width: 1140px) {
     .place__image {
-        max-width: 440px;
-        max-height: 440px;
-        margin:0;
+      width: 42.96875vw;
     }
   }
   
   @media screen and (max-width: 984px) {
     .place__image {
-        max-width: 340px;
-        max-height: 340px;
-        margin:0;
+      width: 44.2708333vw;
     }
   }
-
-@media screen and (max-width: 568px) {
+  
+  @media screen and (max-width: 568px) {
     .place__image {
-        position: relative;
-        margin-top:32px;
-        width:100%;
-        padding: 0;
+      width: 100vw;
+      margin-bottom: 32px;
+      object-fit: cover;
     }
   }

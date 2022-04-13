@@ -38,17 +38,18 @@
     margin: 0 auto;
     
 }
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  body {
-    overflow: auto; /* добавить полосу прокрутки */ 
-  }
-  main {
-    min-height: 100%;
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  body
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
 /*

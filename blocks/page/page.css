@@ -1,4 +1,22 @@
 
 .page{
     background-color: #2A2C2F;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow: auto;
 }
+
+
+
+
+  html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+  
+  
+  }
+ 

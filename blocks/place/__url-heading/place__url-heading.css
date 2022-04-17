@@ -6,40 +6,11 @@
     letter-spacing: 0.2em;
     color: #AAAAAA;
     margin-top: 80px;
-
 }
 
-
-@media screen and (max-width: 1140px) {
-    .place__url-heading {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 20px;
-        letter-spacing: 0.2em;
-        color: #AAAAAA;
-        
-
-    }
-}    
-  
-  @media screen and (max-width: 984px) {
-   
-    .place__url-heading {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 20px;
-        letter-spacing: 0.2em;
-        color: #AAAAAA;
-       
-   
-    }
-  }
-
-  @media screen and (max-width: 568px) {
+@media screen and (max-width: 568px) {
     .place__url-heading {
         padding-left: 16px;
-        padding-right:16px;
+        padding-right: 16px;
     }
-  }
+}

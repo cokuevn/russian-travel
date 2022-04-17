@@ -4,14 +4,12 @@
     text-align: center;
     margin: 16px 0 0;
     max-width: 360px;
-    
 }
 
-
-  @media screen and (max-width: 568px) {
+@media screen and (max-width: 568px) {
     .cover__subtitle {
-  font-size: 14px;
-  line-height: 16px;
-  padding: 8px 0 0;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 8px 0 0;
     }
-  }
+}

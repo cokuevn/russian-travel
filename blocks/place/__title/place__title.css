@@ -11,16 +11,12 @@
 
  @media screen and (max-width: 1140px) {
     .place__title {
-        font-weight: 900;
-        font-size: 72px;
-        line-height: 65px;
         max-width: 440px;
     }
   }
   
   @media screen and (max-width: 984px) {
     .place__title {
-        font-weight: 900;
         font-size: 42px;
         line-height: 46px;
         max-width: 320px;

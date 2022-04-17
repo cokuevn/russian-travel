@@ -6,7 +6,9 @@
 }
 @media screen and (max-width: 568px) {
     .lead__image {
-      padding-left: 2px;
-      padding-right: 2px;
+      width: 99.5%;
+      padding: 0;
+      padding-left: 1px;
+      padding-right: 1px;
     }
   }

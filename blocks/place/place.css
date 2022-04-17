@@ -1,6 +1,6 @@
 .place {
     max-width: 100%;
-    box-sizing:border-box;
+    box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -8,13 +8,12 @@
     margin-top: 72px;
     grid-column-gap: 40px;
     grid-row-gap: 60px;
-    grid-template-areas: "place-title place-web" 
+    grid-template-areas: "place-title place-web"
                          "place-image place-paragraph";
 }
 
 @media screen and (max-width: 1140px) {
     .place {
-       
         grid-column-gap: 32px;
         grid-row-gap: 40px;
     }
@@ -23,7 +22,6 @@
 @media screen and (max-width: 984px) {
     .place {
         grid-column-gap: 28px;
-        grid-row-gap: 40px;
     }
 }
 

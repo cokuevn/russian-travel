@@ -1,4 +1,4 @@
-.header__lang-active {
+.header__lang_active {
     font-family: 'Inter';
     text-decoration-line: underline;
     width: 30px;
@@ -9,10 +9,10 @@
     text-align: right;
     color: #FFFFFF;
 }
+
 @media screen and (max-width: 425px) {
-    .header__lang-active {
-      font-size: 22px;
-      line-height: 20px;
-     
+    .header__lang_active {
+        font-size: 22px;
+        line-height: 20px;
     }
-  }
+}

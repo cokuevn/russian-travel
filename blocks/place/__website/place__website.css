@@ -3,22 +3,11 @@
     position: relative;
 }
 
-@media screen and (max-width: 1140px) {
- .place__website {
-            grid-area: place-web;
-            position: relative;
-        }
-  
-  }
-  
-  @media screen and (max-width: 984px) {
+@media screen and (max-width: 984px) {
     .place__website {
-        grid-area: place-web;
-        position: relative;
-        max-width:352px;
-   
+        max-width: 352px;
     }
-  }
+}
 
 @media screen and (max-width: 568px) {
     .place__website {
